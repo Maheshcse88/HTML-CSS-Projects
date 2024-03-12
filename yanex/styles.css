@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+/* header section*/
+header ul{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    margin-top: 3rem;
+}
+header ul img{
+    height: 3.7rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+/* button icons */
+#button{
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+}
+/* main body*/
+
+/* part1*/
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: centre;
+    align-items: center;
+
+}
+main ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+    list-style: none;
+
+}
+
+section ul img{
+    height: 4rem;
+    border-radius: 50%;
+    margin: 0px 1.5rem;
+}
+section ul li figcaption{
+    margin: 8px 0px 0px 30px;
+}
+/* part2 */
+.search img{
+    height: 2rem;
+    padding: 1rem 1rem;
+}
+.search{
+    display: flex;
+    justify-content: center;
+
+    width: 55%;
+    margin-top: 5rem;
+    border: 3px solid #fbcf03;
+    border-radius: 1rem;
+    margin-bottom: 20rem;
+    padding: 0rem 0rem;
+    
+}
+.search input{
+    border: none;
+    width: 85%;
+    outline: none;
+    font-size: 1.5rem;
+    opacity: 0.5;
+    display: flex;
+    padding-left: 1rem;
+}
+.search button{
+    background-color: #fbcf03;
+    padding: 15px 40px;
+    border: none;
+    outline: none;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+
+/* Footer section */
+footer ul img{
+    height: 1rem;
+    padding-left: 2rem;
+}
+.footer1{
+    color: #e7dede;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding-left: 1rem;
+}
+footer div ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin-bottom: 3rem;
+    
+}
+footer div ul{
+    font-size: 1.5rem;
+}
